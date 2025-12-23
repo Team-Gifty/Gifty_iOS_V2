@@ -1,13 +1,13 @@
 import ProjectDescription
 
 let project = Project(
-    name: "Gifty_V2",
+    name: "Gifty_iOS_V2",
     targets: [
         .target(
-            name: "Gifty_V2",
+            name: "Gifty_iOS_V2",
             destinations: .iOS,
             product: .app,
-            bundleId: "io.tuist.Gifty-V2",
+            bundleId: "com.team.gifty.GiftyiOSV2",
             infoPlist: .extendingDefault(
                 with: [
                     "UILaunchScreen": [
@@ -16,19 +16,19 @@ let project = Project(
                     ],
                 ]
             ),
-            sources: ["Gifty_V2/Sources/**"],
-            resources: ["Gifty_V2/Resources/**"],
+            sources: ["Gifty_iOS_V2/Sources/**"],
+            resources: ["Gifty_iOS_V2/Resources/**"],
             dependencies: []
         ),
         .target(
-            name: "Gifty_V2Tests",
+            name: "Gifty_iOS_V2Tests",
             destinations: .iOS,
             product: .unitTests,
-            bundleId: "io.tuist.Gifty-V2Tests",
+            bundleId: "com.team.gifty.GiftyiOSV2Tests",
             infoPlist: .default,
-            sources: ["Gifty_V2/Tests/**"],
+            sources: ["Gifty_iOS_V2/Tests/**"],
             resources: [],
-            dependencies: [.target(name: "Gifty_V2")]
+            dependencies: [.target(name: "Gifty_iOS_V2")]
         ),
     ]
 )
