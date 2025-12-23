@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9C8D52FD102929CC58D745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2671CA7DCABD7FA3A2BA3D /* Preview Assets.xcassets */; };
+		5D68F26787C215A6507FECC3 /* GiftyV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13528F53C5A17CFCBE40BC1F /* GiftyV2Tests.swift */; };
+		61301B7447C3549B96186E73 /* GiftyV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A345D1805B12C1D88496F1 /* GiftyV2App.swift */; };
+		A6E2706E0DDEC0B8F6473B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C80CA8F8BD4FB90F75C4B2F /* Assets.xcassets */; };
+		AA0B8F20D35F4F33830FC747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D736BA08E1DB9CB566FF1 /* ContentView.swift */; };
+		F226F60461089F3756B1C3C9 /* TuistBundle+GiftyIOSV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CFFF7F8B9B931F6BEA3496 /* TuistBundle+GiftyIOSV2.swift */; };
+		F884D17FFEA33A3EA8E7C4A3 /* TuistAssets+GiftyIOSV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374638DE12CCDBB165F82908 /* TuistAssets+GiftyIOSV2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C970C49E556E7265E9B2357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592B762B33B4F3F774B45EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474BDD2DB6200383415B2883;
+			remoteInfo = Gifty_iOS_V2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6072A1512157518DF66FF38A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919947A58FD098DE23CC3498 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13528F53C5A17CFCBE40BC1F /* GiftyV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftyV2Tests.swift; sourceTree = "<group>"; };
+		19A345D1805B12C1D88496F1 /* GiftyV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftyV2App.swift; sourceTree = "<group>"; };
+		2B2671CA7DCABD7FA3A2BA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36AF39B656822D5B5AD8D52E /* Gifty_iOS_V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gifty_iOS_V2-Info.plist"; sourceTree = "<group>"; };
+		374638DE12CCDBB165F82908 /* TuistAssets+GiftyIOSV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+GiftyIOSV2.swift"; sourceTree = "<group>"; };
+		3C80CA8F8BD4FB90F75C4B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CFFF7F8B9B931F6BEA3496 /* TuistBundle+GiftyIOSV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+GiftyIOSV2.swift"; sourceTree = "<group>"; };
+		768D736BA08E1DB9CB566FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F00BD53817FAEA20855B3B3 /* Gifty_iOS_V2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gifty_iOS_V2Tests-Info.plist"; sourceTree = "<group>"; };
+		BD35CAA30F4B6D809FCFC087 /* Gifty_iOS_V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gifty_iOS_V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EA82372FB54F716D33D9C2 /* Gifty_iOS_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gifty_iOS_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAE5DA515EA528DBDEC2BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ACFED5E022CCF70C74261A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B20F305C2E01DD2ED99AEFF = {
+			isa = PBXGroup;
+			children = (
+				5221A8AA1A1EBFDCE17C2A33 /* Project */,
+				D33BC2C848C34DF908F6E5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41D1DA52252517E39A1A5CA6 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				36AF39B656822D5B5AD8D52E /* Gifty_iOS_V2-Info.plist */,
+				7F00BD53817FAEA20855B3B3 /* Gifty_iOS_V2Tests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		4A6522D02750CB4860376A16 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				768D736BA08E1DB9CB566FF1 /* ContentView.swift */,
+				19A345D1805B12C1D88496F1 /* GiftyV2App.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4D1EDFA187415157275DE49A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				374638DE12CCDBB165F82908 /* TuistAssets+GiftyIOSV2.swift */,
+				56CFFF7F8B9B931F6BEA3496 /* TuistBundle+GiftyIOSV2.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5221A8AA1A1EBFDCE17C2A33 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				648059407AE8F7526518E075 /* Derived */,
+				A8A92507EF38DD798F3C4A06 /* Gifty_iOS_V2 */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		648059407AE8F7526518E075 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				41D1DA52252517E39A1A5CA6 /* InfoPlists */,
+				4D1EDFA187415157275DE49A /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		981B5C01D40F99DB135BD437 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B2671CA7DCABD7FA3A2BA3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8A92507EF38DD798F3C4A06 /* Gifty_iOS_V2 */ = {
+			isa = PBXGroup;
+			children = (
+				F6D64EA3675EBFC4F7AD7D2D /* Resources */,
+				4A6522D02750CB4860376A16 /* Sources */,
+				FB4DF2FC484D622836956809 /* Tests */,
+			);
+			path = Gifty_iOS_V2;
+			sourceTree = "<group>";
+		};
+		D33BC2C848C34DF908F6E5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA82372FB54F716D33D9C2 /* Gifty_iOS_V2.app */,
+				BD35CAA30F4B6D809FCFC087 /* Gifty_iOS_V2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D64EA3675EBFC4F7AD7D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				981B5C01D40F99DB135BD437 /* Preview Content */,
+				3C80CA8F8BD4FB90F75C4B2F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB4DF2FC484D622836956809 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13528F53C5A17CFCBE40BC1F /* GiftyV2Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474BDD2DB6200383415B2883 /* Gifty_iOS_V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD12C35A38E3DE53D1F4806 /* Build configuration list for PBXNativeTarget "Gifty_iOS_V2" */;
+			buildPhases = (
+				F663BB1A92D6F3AB0DA78FA1 /* Sources */,
+				A88D93F286923841E1544330 /* Resources */,
+				6072A1512157518DF66FF38A /* Embed Frameworks */,
+				5EAE5DA515EA528DBDEC2BDF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gifty_iOS_V2;
+			packageProductDependencies = (
+			);
+			productName = Gifty_iOS_V2;
+			productReference = D7EA82372FB54F716D33D9C2 /* Gifty_iOS_V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E55D0A452D6AEADFABF6DC4 /* Gifty_iOS_V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC41A420C1852D5336A3D93 /* Build configuration list for PBXNativeTarget "Gifty_iOS_V2Tests" */;
+			buildPhases = (
+				11340B42C6C6E27D6435758E /* Sources */,
+				29AA264D76F0663C9A623B27 /* Resources */,
+				919947A58FD098DE23CC3498 /* Embed Frameworks */,
+				E8ACFED5E022CCF70C74261A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C69BD96A5E3B357EC90C9DA /* PBXTargetDependency */,
+			);
+			name = Gifty_iOS_V2Tests;
+			packageProductDependencies = (
+			);
+			productName = Gifty_iOS_V2Tests;
+			productReference = BD35CAA30F4B6D809FCFC087 /* Gifty_iOS_V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592B762B33B4F3F774B45EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					7E55D0A452D6AEADFABF6DC4 = {
+						TestTargetID = 474BDD2DB6200383415B2883;
+					};
+				};
+			};
+			buildConfigurationList = CED7B91B9AE6545656F8E9D8 /* Build configuration list for PBXProject "Gifty_iOS_V2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1B20F305C2E01DD2ED99AEFF;
+			productRefGroup = D33BC2C848C34DF908F6E5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474BDD2DB6200383415B2883 /* Gifty_iOS_V2 */,
+				7E55D0A452D6AEADFABF6DC4 /* Gifty_iOS_V2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AA264D76F0663C9A623B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88D93F286923841E1544330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E2706E0DDEC0B8F6473B85 /* Assets.xcassets in Resources */,
+				3E9C8D52FD102929CC58D745 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11340B42C6C6E27D6435758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D68F26787C215A6507FECC3 /* GiftyV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F663BB1A92D6F3AB0DA78FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884D17FFEA33A3EA8E7C4A3 /* TuistAssets+GiftyIOSV2.swift in Sources */,
+				F226F60461089F3756B1C3C9 /* TuistBundle+GiftyIOSV2.swift in Sources */,
+				AA0B8F20D35F4F33830FC747 /* ContentView.swift in Sources */,
+				61301B7447C3549B96186E73 /* GiftyV2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C69BD96A5E3B357EC90C9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifty_iOS_V2;
+			target = 474BDD2DB6200383415B2883 /* Gifty_iOS_V2 */;
+			targetProxy = 2C970C49E556E7265E9B2357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2031055608BCD5940965D473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_iOS_V2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.gifty.GiftyiOSV2;
+				PRODUCT_NAME = Gifty_iOS_V2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39D1DE397F3DC8E1BF6F660B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB85A83565F0EFE1310BF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990804FEF03F04B2B6C1159C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_iOS_V2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.gifty.GiftyiOSV2;
+				PRODUCT_NAME = Gifty_iOS_V2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A86049EAB6F6AF984053C968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_iOS_V2Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.gifty.GiftyiOSV2Tests;
+				PRODUCT_NAME = Gifty_iOS_V2Tests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gifty_iOS_V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gifty_iOS_V2";
+				TEST_TARGET_NAME = Gifty_iOS_V2;
+			};
+			name = Release;
+		};
+		FEA10C77812A606323D0E3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_iOS_V2Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.gifty.GiftyiOSV2Tests;
+				PRODUCT_NAME = Gifty_iOS_V2Tests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gifty_iOS_V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gifty_iOS_V2";
+				TEST_TARGET_NAME = Gifty_iOS_V2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD12C35A38E3DE53D1F4806 /* Build configuration list for PBXNativeTarget "Gifty_iOS_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990804FEF03F04B2B6C1159C /* Debug */,
+				2031055608BCD5940965D473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED7B91B9AE6545656F8E9D8 /* Build configuration list for PBXProject "Gifty_iOS_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D1DE397F3DC8E1BF6F660B /* Debug */,
+				4DB85A83565F0EFE1310BF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC41A420C1852D5336A3D93 /* Build configuration list for PBXNativeTarget "Gifty_iOS_V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA10C77812A606323D0E3C4 /* Debug */,
+				A86049EAB6F6AF984053C968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592B762B33B4F3F774B45EE3 /* Project object */;
+}

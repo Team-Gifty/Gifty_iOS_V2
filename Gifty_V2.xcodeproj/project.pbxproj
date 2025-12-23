@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		317C8920A75800A5AED2C06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A232E06749B80405B10CEF2 /* Assets.xcassets */; };
+		748827C41F51F84082A8028F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E536B5CBC33C63C0A6CBA07 /* Preview Assets.xcassets */; };
+		B39FDB29EA9E305EFD335D92 /* TuistBundle+GiftyV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7670DAB66C4C0FAA3ABC124 /* TuistBundle+GiftyV2.swift */; };
+		B7CD1C4F4C55C047E96308A2 /* GiftyV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8496FC3955DC186C77DDF8F /* GiftyV2Tests.swift */; };
+		D934896644F172A1044E9E53 /* GiftyV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D7B4FF830EE1861DDF5B /* GiftyV2App.swift */; };
+		DF9A966C697E4D799381FE97 /* TuistAssets+GiftyV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0DA9290896C11316047C8 /* TuistAssets+GiftyV2.swift */; };
+		E6DFA98D0CCB1AEACE5EE033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA869B71278F26D69080126 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E75129159DF39B0DA46E1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF30DB4CEED19C63B426DE52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699D1EB74C958ECC0B5F71A8;
+			remoteInfo = Gifty_V2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C64516AF1D67652AD3EBD502 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAADDAF586E8FA583E1CB5AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AAFAAD1FF686EC3406BAEF9 /* Gifty_V2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gifty_V2Tests-Info.plist"; sourceTree = "<group>"; };
+		117C259212926AE06D9F9F90 /* Gifty_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gifty_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A232E06749B80405B10CEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DA869B71278F26D69080126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C86D7B4FF830EE1861DDF5B /* GiftyV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftyV2App.swift; sourceTree = "<group>"; };
+		7EE6ED0CFEFFFE70CBBDC959 /* Gifty_V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gifty_V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E536B5CBC33C63C0A6CBA07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7670DAB66C4C0FAA3ABC124 /* TuistBundle+GiftyV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+GiftyV2.swift"; sourceTree = "<group>"; };
+		C938C4B2D6F7A0802C5A0E72 /* Gifty_V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Gifty_V2-Info.plist"; sourceTree = "<group>"; };
+		D8496FC3955DC186C77DDF8F /* GiftyV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftyV2Tests.swift; sourceTree = "<group>"; };
+		DBF0DA9290896C11316047C8 /* TuistAssets+GiftyV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+GiftyV2.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267DD079D49D1D13B43E03EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D1F4B719B5FC0FE54B84D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A170C942647D1EF7F5CD0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E536B5CBC33C63C0A6CBA07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18398B618121ADF5301FF11C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11A170C942647D1EF7F5CD0D /* Preview Content */,
+				4A232E06749B80405B10CEF2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2128D99260B712320AD10195 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				41FD86665279ED5322938C29 /* Derived */,
+				2442F42BABB7FE49D6ADE2DB /* Gifty_V2 */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		2442F42BABB7FE49D6ADE2DB /* Gifty_V2 */ = {
+			isa = PBXGroup;
+			children = (
+				18398B618121ADF5301FF11C /* Resources */,
+				C05F269AA615388AFF06D425 /* Sources */,
+				BCBCAB6094C2C0EF3DB5FFCE /* Tests */,
+			);
+			path = Gifty_V2;
+			sourceTree = "<group>";
+		};
+		41FD86665279ED5322938C29 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				F518DB633707D1CA0E2DDA48 /* InfoPlists */,
+				89218BBCF5F1596BE1DF2DA1 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		689CFB61EB0D1DEBF05A93F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117C259212926AE06D9F9F90 /* Gifty_V2.app */,
+				7EE6ED0CFEFFFE70CBBDC959 /* Gifty_V2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89218BBCF5F1596BE1DF2DA1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DBF0DA9290896C11316047C8 /* TuistAssets+GiftyV2.swift */,
+				A7670DAB66C4C0FAA3ABC124 /* TuistBundle+GiftyV2.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B59AA04694279E9CAFA3090D = {
+			isa = PBXGroup;
+			children = (
+				2128D99260B712320AD10195 /* Project */,
+				689CFB61EB0D1DEBF05A93F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBCAB6094C2C0EF3DB5FFCE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8496FC3955DC186C77DDF8F /* GiftyV2Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C05F269AA615388AFF06D425 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4DA869B71278F26D69080126 /* ContentView.swift */,
+				6C86D7B4FF830EE1861DDF5B /* GiftyV2App.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F518DB633707D1CA0E2DDA48 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				C938C4B2D6F7A0802C5A0E72 /* Gifty_V2-Info.plist */,
+				0AAFAAD1FF686EC3406BAEF9 /* Gifty_V2Tests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBC9D0D0A5E886D4955AE61 /* Gifty_V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A6AD3A5819858FF3DE39E /* Build configuration list for PBXNativeTarget "Gifty_V2Tests" */;
+			buildPhases = (
+				8800DACBEAF0541D6A0C6E4F /* Sources */,
+				670515C58FCA8D8B047FEBD6 /* Resources */,
+				DAADDAF586E8FA583E1CB5AE /* Embed Frameworks */,
+				99D1F4B719B5FC0FE54B84D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323993E9EB74AD91E776EDB9 /* PBXTargetDependency */,
+			);
+			name = Gifty_V2Tests;
+			packageProductDependencies = (
+			);
+			productName = Gifty_V2Tests;
+			productReference = 7EE6ED0CFEFFFE70CBBDC959 /* Gifty_V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		699D1EB74C958ECC0B5F71A8 /* Gifty_V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5896EB63EED37C90B6813F19 /* Build configuration list for PBXNativeTarget "Gifty_V2" */;
+			buildPhases = (
+				CEF29F007845DA1ED8C9A7B5 /* Sources */,
+				F38AB4372EAC91781FF4E253 /* Resources */,
+				C64516AF1D67652AD3EBD502 /* Embed Frameworks */,
+				267DD079D49D1D13B43E03EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gifty_V2;
+			packageProductDependencies = (
+			);
+			productName = Gifty_V2;
+			productReference = 117C259212926AE06D9F9F90 /* Gifty_V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF30DB4CEED19C63B426DE52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					4BBC9D0D0A5E886D4955AE61 = {
+						TestTargetID = 699D1EB74C958ECC0B5F71A8;
+					};
+				};
+			};
+			buildConfigurationList = BE4530DF05AEB73711F5D17C /* Build configuration list for PBXProject "Gifty_V2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B59AA04694279E9CAFA3090D;
+			productRefGroup = 689CFB61EB0D1DEBF05A93F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699D1EB74C958ECC0B5F71A8 /* Gifty_V2 */,
+				4BBC9D0D0A5E886D4955AE61 /* Gifty_V2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670515C58FCA8D8B047FEBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38AB4372EAC91781FF4E253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317C8920A75800A5AED2C06E /* Assets.xcassets in Resources */,
+				748827C41F51F84082A8028F /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8800DACBEAF0541D6A0C6E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CD1C4F4C55C047E96308A2 /* GiftyV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF29F007845DA1ED8C9A7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9A966C697E4D799381FE97 /* TuistAssets+GiftyV2.swift in Sources */,
+				B39FDB29EA9E305EFD335D92 /* TuistBundle+GiftyV2.swift in Sources */,
+				E6DFA98D0CCB1AEACE5EE033 /* ContentView.swift in Sources */,
+				D934896644F172A1044E9E53 /* GiftyV2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323993E9EB74AD91E776EDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gifty_V2;
+			target = 699D1EB74C958ECC0B5F71A8 /* Gifty_V2 */;
+			targetProxy = 8E75129159DF39B0DA46E1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D0F5D2619A12B0FD9B2C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F251032074CE34EAB63D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_V2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.Gifty-V2";
+				PRODUCT_NAME = Gifty_V2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43696EC274B6C9C7CBFDB542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_V2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.Gifty-V2";
+				PRODUCT_NAME = Gifty_V2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3CD76D82ED35913063E965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		541D2687A95D55D13DDD9C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_V2Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.Gifty-V2Tests";
+				PRODUCT_NAME = Gifty_V2Tests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gifty_V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gifty_V2";
+				TEST_TARGET_NAME = Gifty_V2;
+			};
+			name = Debug;
+		};
+		BA345F99258FAB86B0ADA7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/Gifty_V2Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.Gifty-V2Tests";
+				PRODUCT_NAME = Gifty_V2Tests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gifty_V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gifty_V2";
+				TEST_TARGET_NAME = Gifty_V2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5896EB63EED37C90B6813F19 /* Build configuration list for PBXNativeTarget "Gifty_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F251032074CE34EAB63D015 /* Debug */,
+				43696EC274B6C9C7CBFDB542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4530DF05AEB73711F5D17C /* Build configuration list for PBXProject "Gifty_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3CD76D82ED35913063E965 /* Debug */,
+				08D0F5D2619A12B0FD9B2C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A6AD3A5819858FF3DE39E /* Build configuration list for PBXNativeTarget "Gifty_V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541D2687A95D55D13DDD9C97 /* Debug */,
+				BA345F99258FAB86B0ADA7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF30DB4CEED19C63B426DE52 /* Project object */;
+}
