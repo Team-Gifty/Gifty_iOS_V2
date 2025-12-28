@@ -70,10 +70,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41E0B32BED9A097D3A1B216E"
+               BlueprintIdentifier = "3F31459B2DA9E5BB7B7E73E2"
                BuildableName = "Presentation.framework"
                BlueprintName = "Presentation"
-               ReferencedContainer = "container:Projects/Presentation/Presenta.xcodeproj">
+               ReferencedContainer = "container:Projects/Presentation/Presentation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

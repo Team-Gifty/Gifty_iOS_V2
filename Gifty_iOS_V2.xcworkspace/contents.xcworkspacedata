@@ -17,7 +17,7 @@
          location = "group:Flow/Flow.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Presentation/Presenta.xcodeproj">
+         location = "group:Presentation/Presentation.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>

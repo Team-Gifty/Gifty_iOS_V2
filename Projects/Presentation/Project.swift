@@ -1,7 +1,7 @@
 import ProjectDescription
 
 let project = Project(
-    name: "Presenta",
+    name: "Presentation",
     targets: [
         .target(
             name: "Presentation",
