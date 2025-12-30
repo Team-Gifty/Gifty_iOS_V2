@@ -5,6 +5,9 @@
       location = "group:Projects"
       name = "Projects">
       <FileRef
+         location = "group:App/Gifty_iOS_V2.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Data/Data.xcodeproj">
       </FileRef>
       <FileRef

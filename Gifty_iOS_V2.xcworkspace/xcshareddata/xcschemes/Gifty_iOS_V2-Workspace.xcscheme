@@ -56,6 +56,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "474BDD2DB6200383415B2883"
+               BuildableName = "Gifty_iOS_V2.framework"
+               BlueprintName = "Gifty_iOS_V2"
+               ReferencedContainer = "container:Projects/App/Gifty_iOS_V2.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F31459B2DA9E5BB7B7E73E2"
                BuildableName = "Presentation.framework"
                BlueprintName = "Presentation"
