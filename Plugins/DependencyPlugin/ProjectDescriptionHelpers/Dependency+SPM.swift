@@ -19,4 +19,3 @@ public extension TargetDependency.PackageType {
     static let Starscream = TargetDependency.external(name: "Starscream")
     static let Siren = TargetDependency.external(name: "Siren")
 }
-
