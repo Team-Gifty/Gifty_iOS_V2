@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
-               BuildableName = "App.framework"
-               BlueprintName = "App"
-               ReferencedContainer = "container:Projects/App/App.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "372E276F143AFFAD2448C971"
                BuildableName = "Data.framework"
                BlueprintName = "Data"
@@ -99,10 +85,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
-            BuildableName = "App.framework"
-            BlueprintName = "App"
-            ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            BlueprintIdentifier = "372E276F143AFFAD2448C971"
+            BuildableName = "Data.framework"
+            BlueprintName = "Data"
+            ReferencedContainer = "container:Projects/Data/Data.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -115,10 +101,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
-            BuildableName = "App.framework"
-            BlueprintName = "App"
-            ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            BlueprintIdentifier = "372E276F143AFFAD2448C971"
+            BuildableName = "Data.framework"
+            BlueprintName = "Data"
+            ReferencedContainer = "container:Projects/Data/Data.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
