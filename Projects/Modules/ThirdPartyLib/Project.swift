@@ -24,4 +24,3 @@ let project = Project.makeModule(
         .PackageType.Siren
     ]
 )
-
