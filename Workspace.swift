@@ -1,7 +1,8 @@
 import ProjectDescription
+import EnvironmentPlugin
 
 let workspace = Workspace(
-    name: "Gifty_iOS_V2",
+    name: env.appName,
     projects: [
         "Projects/App",
         "Projects/Core",
