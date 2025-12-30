@@ -1,15 +1,11 @@
 import ProjectDescription
+import ProjectDescriptionHelpers
+import DependencyPlugin
 
-let project = Project(
+let project = Project.makeModule(
     name: "Domain",
-    targets: [
-        .target(
-            name: "Domain",
-            destinations: .iOS,
-            product: .framework,
-            bundleId: "com.team.gifty.GiftyiOSV2",
-            sources: ["Sources/**"]
-        )
+    product: .staticFramework,
+    dependencies: [
+        .Projects.core
     ]
 )
-
