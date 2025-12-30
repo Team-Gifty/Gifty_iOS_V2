@@ -1,10 +1,10 @@
 import ProjectDescription
 
 let project = Project(
-    name: "App",
+    name: "Gifty_iOS_V2",
     targets: [
         .target(
-            name: "App",
+            name: "Gifty_iOS_V2",
             destinations: .iOS,
             product: .framework,
             bundleId: "com.team.gifty.GiftyiOSV2",
