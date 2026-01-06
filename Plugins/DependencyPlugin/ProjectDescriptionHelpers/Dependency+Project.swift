@@ -6,11 +6,11 @@ public extension TargetDependency {
 }
 
 public extension TargetDependency.Projects {
-    static let core = Project(name: "Core")
-    static let data = Project(name: "Data")
-    static let domain = Project(name: "Domain")
-    static let flow = Project(name: "Flow")
-    static let presentation = Project(name: "Presentation")
+    static let core = project(name: "Core")
+    static let data = project(name: "Data")
+    static let domain = project(name: "Domain")
+    static let flow = project(name: "Flow")
+    static let presentation = project(name: "Presentation")
     
     static func project(name: String) -> TargetDependency {
         return .project(
